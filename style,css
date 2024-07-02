@@ -24,6 +24,3 @@ h1 {
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
 }
-.cabeçalho {
-    background-color: var(--branco);
-}
