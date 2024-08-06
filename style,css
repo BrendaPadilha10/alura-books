@@ -17,6 +17,28 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+    @import url("styles/header.css");
+    :root {
+        --cor-de-fundo: #EBECEE;
+        --branco: #FFFFFF;
+    }
+    :root {
+        --cor-de-fundo: #EBECEE;
+        --branco: #FFFFFF;
+        --laranja: #eb9b00; 
+    }
+    :root {
+        --cor-de-fundo: #EBECEE;
+        --branco: #FFFFFF;
+        --laranja: #eb9b00; 
+    }
+    body{
+        .cabeçalho {
+            background-color: var(--cor-de-fundo);
+            font-family: var(--fonte-principa);
+        }
+        
+    }
     
  
  
