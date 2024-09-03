@@ -168,7 +168,8 @@
     scrollbar: {
       el: ".swiper-scrollbar",
     },
-…<script>
+  
+  <script>
   const swiper = new Swiper(".swiper", {
     spaceBetween: 10,
     slidesPerView: 3,
@@ -185,3 +186,28 @@
   <img src="img/Acessibilidade.svg" alt="Livro sobre acessibilidade" />
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper", {
+    // Optional parameters
+    direction: "vertical",
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      el: ".swiper-pagination",
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: ".swiper-scrollbar",
+    },
+  });
+</script>
